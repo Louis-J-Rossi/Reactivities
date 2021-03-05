@@ -36,7 +36,6 @@ export default observer(function RegisterForm() {
                         loading={isSubmitting} positive content='Register' type='submit' fluid />
                 </Form>
             )}
-
         </Formik>
     )
 })
